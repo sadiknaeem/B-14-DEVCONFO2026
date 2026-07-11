@@ -153,3 +153,112 @@ header{
     color: #6b7280;
     line-height: 24px;
 }
+.conatent-meet{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.spot-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.spot-title h1{
+    font-size: 50px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+.spot-title p{
+    font-size: 16px;
+    color: #6b7280;
+}
+.card-parent{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 350px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.10);
+}
+.card-black{
+    background: #0f172a;
+    color: white;
+    transform: scale(1.05);
+}
+.plan-name,
+.plan{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #2563eb;
+}
+.price{
+    font-size: 54px;
+    margin: 15px 0 5px;
+}
+.line{
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+.line-color{
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+.divider{
+    margin: 20px 0;
+}
+.divider hr{
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+}
+.unoder{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.unoder li{
+    margin-bottom: 14px;
+    line-height: 24px;
+}
+.card-black .unoder li{
+    color: #e2e8f0;
+}
+.btn-2,
+.button-color,
+.thrid-btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-2{
+    border: 1px solid #2563eb;
+    background: white;
+    color: #2563eb;
+}
+.button-color{
+    border: none;
+    background: #2563eb;
+    color: white;
+}
+.thrid-btn{
+    border: 1px solid #111827;
+    background: white;
+    color: #111827;
+}
+.btn-2:hover,
+.button-color:hover,
+.thrid-btn:hover{
+    opacity: .9;
+} 
